@@ -28,7 +28,7 @@ jobs:
         with:
           command: build
           args: --release --all-features
-      - uses: actions/upload-artifact@83fd05a356d7e2593de66fc9913b3002723633cb # v3
+      - uses: actions/upload-artifact@ff15f0306b3f739f7b6fd43fb5d26cd321bd4de5 # v3
         with:
           name: win_x86_64_binary
           path: target/release/teres.exe
@@ -57,7 +57,7 @@ jobs:
         with:
           command: build
           args: --release --all-features
-      - uses: actions/upload-artifact@83fd05a356d7e2593de66fc9913b3002723633cb # v3
+      - uses: actions/upload-artifact@ff15f0306b3f739f7b6fd43fb5d26cd321bd4de5 # v3
         with:
           name: linux_x86_64_binary
           path: target/release/teres
@@ -208,7 +208,7 @@ jobs:
           command: deb
       - id: pkg_ver
         run: echo "ver=$(cat Cargo.toml | grep -oP '^version = \"\K[\d.\d.\d]+(?=\")')" >> $GITHUB_OUTPUT
-      - uses: actions/upload-artifact@83fd05a356d7e2593de66fc9913b3002723633cb # v3
+      - uses: actions/upload-artifact@ff15f0306b3f739f7b6fd43fb5d26cd321bd4de5 # v3
         with:
           name: linux_x86_64_deb
           path: target/debian/teres_${{ steps.pkg_ver.outputs.ver }}_amd64.deb
