@@ -16,7 +16,7 @@ rand = "0.8.5"
 serde = { version = "1.0", features = ["derive"] }
 human-panic = "1.0.3"
 rfd = "0.10.0"
-indicatif = { version = "0.17.2", features = ["improved_unicode"] }
+indicatif = { version = "0.17.9", features = ["improved_unicode"] }
 regex = "1.7.0"
 ctrlc = "3.2.4"
 winconsole = "0.11"
