@@ -15,7 +15,7 @@ jobs:
       - uses: actions-rs/toolchain@16499b5e05bf2e26879000db0c1d13f7e13fa3af # tag=v1
         with:
           toolchain: stable
-      - uses: actions/cache@c17f4bf4666a8001b1a45c09eb7a485c41aa64c3 # v3
+      - uses: actions/cache@f4b3439a656ba812b8cb417d2d49f9c810103092 # v3
         with:
           path: |
             ~/.cargo/bin/
@@ -44,7 +44,7 @@ jobs:
       - uses: actions-rs/toolchain@16499b5e05bf2e26879000db0c1d13f7e13fa3af # tag=v1
         with:
           toolchain: stable
-      - uses: actions/cache@c17f4bf4666a8001b1a45c09eb7a485c41aa64c3 # v3
+      - uses: actions/cache@f4b3439a656ba812b8cb417d2d49f9c810103092 # v3
         with:
           path: |
             ~/.cargo/bin/
@@ -77,7 +77,7 @@ jobs:
           profile: minimal
           toolchain: stable
           override: true
-      - uses: actions/cache@c17f4bf4666a8001b1a45c09eb7a485c41aa64c3 # v3
+      - uses: actions/cache@f4b3439a656ba812b8cb417d2d49f9c810103092 # v3
         with:
           path: |
             ~/.cargo/bin/
@@ -107,7 +107,7 @@ jobs:
           toolchain: stable
           override: true
           components: rustfmt, clippy
-      - uses: actions/cache@c17f4bf4666a8001b1a45c09eb7a485c41aa64c3 # v3
+      - uses: actions/cache@f4b3439a656ba812b8cb417d2d49f9c810103092 # v3
         with:
           path: |
             ~/.cargo/bin/
@@ -160,7 +160,7 @@ jobs:
           profile: minimal
           toolchain: stable
           override: true
-      - uses: actions/cache@c17f4bf4666a8001b1a45c09eb7a485c41aa64c3 # v3
+      - uses: actions/cache@f4b3439a656ba812b8cb417d2d49f9c810103092 # v3
         with:
           path: |
             ~/.cargo/bin/
@@ -188,7 +188,7 @@ jobs:
           profile: minimal
           toolchain: stable
           override: true
-      - uses: actions/cache@c17f4bf4666a8001b1a45c09eb7a485c41aa64c3 # v3
+      - uses: actions/cache@f4b3439a656ba812b8cb417d2d49f9c810103092 # v3
         with:
           path: |
             ~/.cargo/bin/
